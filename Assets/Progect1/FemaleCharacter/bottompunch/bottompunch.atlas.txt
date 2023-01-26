@@ -1,0 +1,447 @@
+
+bottompunch.png
+size: 1953,650
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+белок
+  rotate: false
+  xy: 1363, 131
+  size: 34, 10
+  orig: 42, 16
+  offset: 2, 2
+  index: -1
+белокновый
+  rotate: true
+  xy: 1701, 114
+  size: 36, 6
+  orig: 36, 6
+  offset: 0, 0
+  index: -1
+бровиновые
+  rotate: false
+  xy: 1625, 20
+  size: 40, 10
+  orig: 40, 10
+  offset: 0, 0
+  index: -1
+варварша полный рост
+  rotate: false
+  xy: 2, 6
+  size: 595, 642
+  orig: 596, 642
+  offset: 0, 0
+  index: -1
+волосы 
+  rotate: false
+  xy: 1124, 504
+  size: 249, 144
+  orig: 300, 200
+  offset: 23, 40
+  index: -1
+волосы профиль
+  rotate: false
+  xy: 1375, 510
+  size: 235, 138
+  orig: 264, 170
+  offset: 16, 18
+  index: -1
+глаза брови
+  rotate: true
+  xy: 1761, 67
+  size: 44, 19
+  orig: 62, 34
+  offset: 8, 4
+  index: -1
+зрачки
+  rotate: false
+  xy: 1625, 2
+  size: 34, 16
+  orig: 48, 20
+  offset: 8, 4
+  index: -1
+зрачки профиль
+  rotate: true
+  xy: 1842, 515
+  size: 6, 10
+  orig: 18, 14
+  offset: 6, 2
+  index: -1
+зрачкиновые
+  rotate: true
+  xy: 1945, 292
+  size: 32, 6
+  orig: 32, 6
+  offset: 0, 0
+  index: -1
+кадр
+  rotate: false
+  xy: 599, 204
+  size: 523, 444
+  orig: 584, 740
+  offset: 36, 46
+  index: -1
+левая ляшка
+  rotate: true
+  xy: 1363, 143
+  size: 82, 170
+  orig: 96, 186
+  offset: 6, 6
+  index: -1
+левый чулок
+  rotate: false
+  xy: 1842, 193
+  size: 66, 54
+  orig: 102, 92
+  offset: 10, 18
+  index: -1
+лифчик
+  rotate: true
+  xy: 1842, 523
+  size: 125, 102
+  orig: 180, 154
+  offset: 19, 26
+  index: -1
+лифчик профиль
+  rotate: false
+  xy: 1856, 326
+  size: 93, 78
+  orig: 152, 114
+  offset: 28, 13
+  index: -1
+лицо
+  rotate: false
+  xy: 1723, 3
+  size: 58, 62
+  orig: 78, 76
+  offset: 6, 0
+  index: -1
+лицо профиль
+  rotate: true
+  xy: 1701, 67
+  size: 44, 58
+  orig: 64, 78
+  offset: 8, 8
+  index: -1
+лицо фаз2 профиль
+  rotate: false
+  xy: 1663, 152
+  size: 44, 62
+  orig: 66, 78
+  offset: 14, 2
+  index: -1
+лицоновое
+  rotate: true
+  xy: 1851, 73
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+меч
+  rotate: true
+  xy: 599, 7
+  size: 195, 308
+  orig: 238, 344
+  offset: 22, 9
+  index: -1
+моргалка
+  rotate: true
+  xy: 1570, 288
+  size: 40, 10
+  orig: 48, 16
+  offset: 4, 2
+  index: -1
+нога до колена профиль
+  rotate: false
+  xy: 1106, 18
+  size: 85, 184
+  orig: 136, 190
+  offset: 27, 6
+  index: -1
+нога до колена профиль 2
+  rotate: false
+  xy: 1570, 216
+  size: 143, 70
+  orig: 170, 100
+  offset: 13, 15
+  index: -1
+нога колено левая
+  rotate: false
+  xy: 1251, 283
+  size: 111, 219
+  orig: 148, 240
+  offset: 19, 12
+  index: -1
+нога колено правая
+  rotate: true
+  xy: 1612, 515
+  size: 133, 228
+  orig: 146, 238
+  offset: 4, 5
+  index: -1
+нога от колена профиль
+  rotate: true
+  xy: 1364, 330
+  size: 97, 217
+  orig: 158, 292
+  offset: 27, 37
+  index: -1
+ногаполуразворот
+  rotate: true
+  xy: 1375, 429
+  size: 79, 232
+  orig: 114, 296
+  offset: 14, 35
+  index: -1
+обруч
+  rotate: false
+  xy: 1847, 45
+  size: 58, 26
+  orig: 70, 40
+  offset: 8, 10
+  index: -1
+обруч профиль
+  rotate: true
+  xy: 1251, 259
+  size: 22, 14
+  orig: 34, 28
+  offset: 4, 6
+  index: -1
+пизда
+  rotate: false
+  xy: 1774, 417
+  size: 86, 96
+  orig: 86, 96
+  offset: 0, 0
+  index: -1
+полуразв ляшка
+  rotate: false
+  xy: 1193, 71
+  size: 72, 174
+  orig: 118, 224
+  offset: 18, 31
+  index: -1
+правая ляшка
+  rotate: false
+  xy: 1436, 12
+  size: 120, 129
+  orig: 176, 168
+  offset: 26, 14
+  index: -1
+правая рука с мечом
+  rotate: true
+  xy: 1867, 249
+  size: 75, 76
+  orig: 88, 82
+  offset: 6, 6
+  index: -1
+правый чулок
+  rotate: false
+  xy: 1558, 2
+  size: 65, 28
+  orig: 152, 112
+  offset: 46, 26
+  index: -1
+предплечье левое
+  rotate: true
+  xy: 1734, 263
+  size: 39, 131
+  orig: 68, 138
+  offset: 16, 5
+  index: -1
+предплечье левое профиль
+  rotate: true
+  xy: 1715, 182
+  size: 35, 124
+  orig: 58, 134
+  offset: 12, 2
+  index: -1
+предплечье правое
+  rotate: false
+  xy: 1667, 60
+  size: 32, 90
+  orig: 46, 116
+  offset: 4, 8
+  index: -1
+предплечье правое профиль
+  rotate: true
+  xy: 1715, 219
+  size: 42, 125
+  orig: 64, 156
+  offset: 9, 15
+  index: -1
+пресс
+  rotate: true
+  xy: 1535, 144
+  size: 70, 126
+  orig: 86, 140
+  offset: 6, 11
+  index: -1
+пресс нулевой
+  rotate: false
+  xy: 1782, 110
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+пресс полуразворот
+  rotate: true
+  xy: 1734, 304
+  size: 57, 114
+  orig: 90, 138
+  offset: 21, 14
+  index: -1
+прическа перед
+  rotate: false
+  xy: 1267, 123
+  size: 94, 158
+  orig: 136, 184
+  offset: 14, 7
+  index: -1
+прическа профиль
+  rotate: true
+  xy: 1612, 424
+  size: 89, 160
+  orig: 106, 162
+  offset: 10, 0
+  index: -1
+рот
+  rotate: true
+  xy: 1946, 638
+  size: 10, 5
+  orig: 12, 8
+  offset: 2, 2
+  index: -1
+рука левая
+  rotate: false
+  xy: 1583, 347
+  size: 143, 75
+  orig: 170, 104
+  offset: 7, 22
+  index: -1
+рука левая профиль
+  rotate: false
+  xy: 1728, 363
+  size: 126, 52
+  orig: 194, 142
+  offset: 46, 50
+  index: -1
+рука правая профиль
+  rotate: false
+  xy: 1583, 288
+  size: 149, 57
+  orig: 152, 70
+  offset: 1, 3
+  index: -1
+сапог левый
+  rotate: true
+  xy: 1267, 2
+  size: 119, 167
+  orig: 170, 242
+  offset: 29, 32
+  index: -1
+сапог правый
+  rotate: false
+  xy: 998, 16
+  size: 106, 186
+  orig: 142, 226
+  offset: 21, 18
+  index: -1
+сапог правый полу
+  rotate: false
+  xy: 1709, 113
+  size: 74, 67
+  orig: 74, 172
+  offset: 0, 0
+  index: -1
+сиська
+  rotate: false
+  xy: 1851, 127
+  size: 62, 64
+  orig: 74, 80
+  offset: 5, 9
+  index: -1
+сиська лев пол
+  rotate: false
+  xy: 1785, 110
+  size: 64, 70
+  orig: 88, 86
+  offset: 12, 0
+  index: -1
+сиська полу пр
+  rotate: true
+  xy: 1667, 2
+  size: 56, 54
+  orig: 64, 68
+  offset: 0, 8
+  index: -1
+сиська профиль
+  rotate: false
+  xy: 1783, 40
+  size: 62, 68
+  orig: 88, 88
+  offset: 11, 5
+  index: -1
+сиська2
+  rotate: false
+  xy: 1193, 2
+  size: 61, 67
+  orig: 74, 80
+  offset: 3, 6
+  index: -1
+торс
+  rotate: false
+  xy: 1124, 247
+  size: 125, 255
+  orig: 130, 262
+  offset: 5, 0
+  index: -1
+торс полу разв
+  rotate: true
+  xy: 1364, 227
+  size: 101, 204
+  orig: 196, 296
+  offset: 39, 40
+  index: -1
+торс профиль
+  rotate: false
+  xy: 909, 2
+  size: 87, 200
+  orig: 166, 256
+  offset: 17, 6
+  index: -1
+тряпочка
+  rotate: false
+  xy: 1558, 32
+  size: 107, 110
+  orig: 260, 202
+  offset: 50, 33
+  index: -1
+тряпочка профиль
+  rotate: false
+  xy: 1862, 406
+  size: 85, 115
+  orig: 108, 128
+  offset: 7, 4
+  index: -1
+ухопрофиль
+  rotate: false
+  xy: 1162, 219
+  size: 20, 26
+  orig: 38, 36
+  offset: 16, 0
+  index: -1
+шея
+  rotate: false
+  xy: 1124, 204
+  size: 36, 41
+  orig: 54, 58
+  offset: 5, 7
+  index: -1
+шея профиль
+  rotate: false
+  xy: 1783, 2
+  size: 32, 36
+  orig: 54, 58
+  offset: 6, 10
+  index: -1

@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -81809874, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: New Character
+  m_EditorClassIdentifier: 
+  version: 0
+  profilePictureSmall: {fileID: 0}
+  profilePictureBig: {fileID: 0}
+  characterName: 
+  gender: 0
+  characterDescription: 
+  selectionAnimation: {fileID: 0}
+  selectionSound: {fileID: 0}
+  deathSound: {fileID: 0}
+  height: 0
+  age: 0
+  bloodType: Unknown
+  lifePoints: 1000
+  maxGaugePoints: 0
+  characterPrefabStorage: 0
+  characterPrefab: {fileID: 5600084743231259938, guid: 172bc910e84bc4d49b43595641b7d2f2,
+    type: 3}
+  prefabResourcePath: 
+  alternativeCostumes: []
+  initialPosition:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+  initialRotation:
+    x:
+      _serializedValue: 0
+    y:
+      _serializedValue: 0
+    z:
+      _serializedValue: 0
+    w:
+      _serializedValue: 0
+  physics:
+    moveForwardSpeed: 4
+    _moveForwardSpeed:
+      _serializedValue: 17179869184
+    moveBackSpeed: 3.5
+    _moveBackSpeed:
+      _serializedValue: 15032385536
+    highMovingFriction: 1
+    friction: 30
+    _friction:
+      _serializedValue: 128849018880
+    canCrouch: 1
+    crouchDelay: 2
+    standingDelay: 2
+    canJump: 1
+    pressureSensitiveJump: 0
+    jumpForce: 40
+    _jumpForce:
+      _serializedValue: 171798691840
+    minJumpForce: 30
+    _minJumpForce:
+      _serializedValue: 128849018880
+    minJumpDelay: 4
+    jumpDistance: 8
+    _jumpDistance:
+      _serializedValue: 34359738368
+    cumulativeForce: 1
+    multiJumps: 1
+    weight: 175
+    _weight:
+      _serializedValue: 751619276800
+    jumpDelay: 8
+    landingDelay: 7
+    groundCollisionMass: 2
+    _groundCollisionMass:
+      _serializedValue: 8589934592
+  headLook:
+    enabled: 0
+    segments: []
+    nonAffectedJoints: []
+    target: 1
+    effect: 1
+    overrideAnimation: 1
+    disableOnHit: 1
+  customControls:
+    overrideControlFreak: 0
+    controlFreak2Prefab: {fileID: 0}
+  hideGauges: 00000000000000000000
+  executionTiming: 0.3
+  _executionTiming:
+    _serializedValue: 1288490188
+  possibleAirMoves: 1
+  blendingTime: 0.1
+  _blendingTime:
+    _serializedValue: 429496736
+  animationType: 2
+  avatar: {fileID: 0}
+  useScaleFlip: 0
+  applyRootMotion: 0
+  animationFlow: 0
+  useAnimationMaps: 0
+  stanceResourcePath: []
+  moves: []
+  aiInstructionsSet: []

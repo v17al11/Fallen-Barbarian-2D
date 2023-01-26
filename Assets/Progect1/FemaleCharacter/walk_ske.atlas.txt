@@ -1,0 +1,279 @@
+
+walk_ske.png
+size: 1286,525
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Armature_animtion0_001
+  rotate: true
+  xy: 2, 91
+  size: 432, 640
+  orig: 472, 704
+  offset: 38, 2
+  index: -1
+l_hand_dont
+  rotate: true
+  xy: 1222, 94
+  size: 145, 58
+  orig: 146, 80
+  offset: 0, 17
+  index: -1
+r_hand_dont
+  rotate: false
+  xy: 644, 96
+  size: 97, 121
+  orig: 100, 136
+  offset: 2, 3
+  index: -1
+белок
+  rotate: false
+  xy: 508, 3
+  size: 34, 10
+  orig: 42, 16
+  offset: 2, 2
+  index: -1
+белокновый
+  rotate: false
+  xy: 340, 5
+  size: 36, 6
+  orig: 36, 6
+  offset: 0, 0
+  index: -1
+бровиновые
+  rotate: false
+  xy: 424, 3
+  size: 40, 10
+  orig: 40, 10
+  offset: 0, 0
+  index: -1
+волосы 
+  rotate: true
+  xy: 836, 274
+  size: 249, 144
+  orig: 300, 200
+  offset: 23, 40
+  index: -1
+глаза брови
+  rotate: true
+  xy: 982, 479
+  size: 44, 19
+  orig: 62, 34
+  offset: 8, 4
+  index: -1
+зрачки
+  rotate: true
+  xy: 982, 443
+  size: 34, 16
+  orig: 48, 20
+  offset: 8, 4
+  index: -1
+зрачкиновые
+  rotate: false
+  xy: 378, 5
+  size: 32, 6
+  orig: 32, 6
+  offset: 0, 0
+  index: -1
+левый чулок
+  rotate: false
+  xy: 1074, 39
+  size: 61, 64
+  orig: 102, 92
+  offset: 14, 12
+  index: -1
+лифчик
+  rotate: false
+  xy: 754, 2
+  size: 119, 93
+  orig: 180, 154
+  offset: 21, 33
+  index: -1
+лицо
+  rotate: true
+  xy: 1191, 241
+  size: 58, 62
+  orig: 78, 76
+  offset: 6, 0
+  index: -1
+лицоновое
+  rotate: false
+  xy: 1137, 39
+  size: 52, 64
+  orig: 52, 64
+  offset: 0, 0
+  index: -1
+ляшка ходьба левая
+  rotate: true
+  xy: 743, 97
+  size: 120, 162
+  orig: 198, 200
+  offset: 36, 15
+  index: -1
+ляшка ходьба правая
+  rotate: true
+  xy: 2, 2
+  size: 87, 174
+  orig: 138, 184
+  offset: 51, 0
+  index: -1
+меч
+  rotate: false
+  xy: 644, 219
+  size: 190, 304
+  orig: 238, 344
+  offset: 24, 10
+  index: -1
+моргалка
+  rotate: false
+  xy: 466, 3
+  size: 40, 10
+  orig: 48, 16
+  offset: 4, 2
+  index: -1
+нога без ступни  пр
+  rotate: true
+  xy: 982, 291
+  size: 111, 165
+  orig: 168, 226
+  offset: 25, 23
+  index: -1
+нога колено левая без
+  rotate: true
+  xy: 836, 219
+  size: 53, 169
+  orig: 112, 224
+  offset: 19, 40
+  index: -1
+обруч
+  rotate: true
+  xy: 1149, 353
+  size: 58, 26
+  orig: 70, 40
+  offset: 8, 10
+  index: -1
+пизда
+  rotate: true
+  xy: 178, 3
+  size: 86, 96
+  orig: 86, 96
+  offset: 0, 0
+  index: -1
+правая рука с мечом
+  rotate: false
+  xy: 340, 13
+  size: 76, 76
+  orig: 88, 82
+  offset: 7, 6
+  index: -1
+правый чулок
+  rotate: false
+  xy: 1074, 7
+  size: 63, 30
+  orig: 152, 112
+  offset: 46, 25
+  index: -1
+предплечье левое
+  rotate: false
+  xy: 1179, 108
+  size: 41, 131
+  orig: 68, 138
+  offset: 16, 5
+  index: -1
+предплечье правое
+  rotate: false
+  xy: 875, 4
+  size: 38, 91
+  orig: 46, 116
+  offset: 2, 10
+  index: -1
+пресс
+  rotate: true
+  xy: 566, 19
+  size: 70, 126
+  orig: 86, 140
+  offset: 6, 11
+  index: -1
+прическа зад
+  rotate: false
+  xy: 276, 3
+  size: 62, 86
+  orig: 64, 86
+  offset: 0, 0
+  index: -1
+прическа перед
+  rotate: true
+  xy: 915, 5
+  size: 94, 157
+  orig: 136, 184
+  offset: 13, 8
+  index: -1
+рот
+  rotate: false
+  xy: 412, 6
+  size: 10, 5
+  orig: 12, 8
+  offset: 2, 2
+  index: -1
+рука левая
+  rotate: false
+  xy: 418, 15
+  size: 146, 74
+  orig: 170, 104
+  offset: 5, 21
+  index: -1
+сапог левый
+  rotate: true
+  xy: 907, 101
+  size: 116, 164
+  orig: 170, 242
+  offset: 30, 33
+  index: -1
+сапог правый
+  rotate: false
+  xy: 1073, 105
+  size: 104, 184
+  orig: 142, 226
+  offset: 21, 18
+  index: -1
+сиська
+  rotate: true
+  xy: 1007, 404
+  size: 62, 64
+  orig: 74, 80
+  offset: 5, 9
+  index: -1
+сиська2
+  rotate: false
+  xy: 1007, 222
+  size: 61, 67
+  orig: 74, 80
+  offset: 3, 6
+  index: -1
+стопа левая
+  rotate: true
+  xy: 694, 2
+  size: 92, 58
+  orig: 124, 78
+  offset: 16, 8
+  index: -1
+стопа правая
+  rotate: true
+  xy: 1007, 468
+  size: 55, 65
+  orig: 78, 80
+  offset: 9, 5
+  index: -1
+торсбезтаза
+  rotate: true
+  xy: 1074, 413
+  size: 110, 209
+  orig: 130, 262
+  offset: 20, 46
+  index: -1
+тряпочка
+  rotate: false
+  xy: 1179, 301
+  size: 105, 110
+  orig: 260, 202
+  offset: 51, 32
+  index: -1

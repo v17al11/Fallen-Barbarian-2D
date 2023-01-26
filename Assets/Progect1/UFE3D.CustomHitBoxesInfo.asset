@@ -1,0 +1,175 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1422231745, guid: 290947d1480294243a72173919bf47d1, type: 3}
+  m_Name: UFE3D.CustomHitBoxesInfo
+  m_EditorClassIdentifier: 
+  clip: {fileID: 7400000, guid: 07ea71ed07f1ebf4b987ff7bb7f90231, type: 2}
+  speed:
+    _serializedValue: 4294967296
+  preview: {fileID: 4800860393621946801, guid: 5fb7a64a131137a47a4d407d7f69e518, type: 3}
+  totalFrames: 10
+  customHitBoxes:
+  - name: New Hitbox
+    activeFrames:
+    - active: 1
+      position:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 21345986560
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 2
+    - active: 1
+      position:
+        x:
+          _serializedValue: 0
+        y:
+          _serializedValue: 21345986560
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 1
+      position:
+        x:
+          _serializedValue: 2405181696
+        y:
+          _serializedValue: 20143396864
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 2
+    - active: 1
+      position:
+        x:
+          _serializedValue: 2405181696
+        y:
+          _serializedValue: 20143396864
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 1
+      position:
+        x:
+          _serializedValue: 4466765824
+        y:
+          _serializedValue: 17523466240
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 3
+    - active: 1
+      position:
+        x:
+          _serializedValue: 4466765824
+        y:
+          _serializedValue: 17523466240
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 1
+      position:
+        x:
+          _serializedValue: 4466765824
+        y:
+          _serializedValue: 17523466240
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 1
+      position:
+        x:
+          _serializedValue: -3521873152
+        y:
+          _serializedValue: 18124761088
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 3
+    - active: 1
+      position:
+        x:
+          _serializedValue: -3521873152
+        y:
+          _serializedValue: 18124761088
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    - active: 1
+      position:
+        x:
+          _serializedValue: -3521873152
+        y:
+          _serializedValue: 18124761088
+        z:
+          _serializedValue: 0
+      cubeWidth:
+        _serializedValue: 4294967296
+      cubeHeight:
+        _serializedValue: 4294967296
+      radius:
+        _serializedValue: 2147483648
+      range: 0
+    shape: 0
+    collisionType: 0
+    hitBoxType: 0
