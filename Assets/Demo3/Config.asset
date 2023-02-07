@@ -82,13 +82,13 @@ MonoBehaviour:
     canvasScaler:
       defaultSpriteDPI: 96
       fallbackScreenDPI: 96
-      matchWidthOrHeight: 0
+      matchWidthOrHeight: 0.5
       physicalUnit: 3
       referencePixelsPerUnit: 100
       referenceResolution: {x: 1920, y: 1080}
       scaleFactor: 1
       screenMatchMode: 0
-      scaleMode: 0
+      scaleMode: 1
     introScreen: {fileID: 0}
     mainMenuScreen: {fileID: 0}
     optionsScreen: {fileID: 0}
@@ -794,7 +794,7 @@ MonoBehaviour:
   player1_Inputs:
   - inputType: 0
     inputButtonName: P1KeyboardHorizontal
-    engineRelatedButton: 0
+    engineRelatedButton: 1
     joystickAxisName: 
     cInputPositiveKeyName: 
     cInputPositiveDefaultKey: 
@@ -923,7 +923,7 @@ MonoBehaviour:
   player2_Inputs:
   - inputType: 1
     inputButtonName: P2KeyboardVertical
-    engineRelatedButton: 3
+    engineRelatedButton: 2
     joystickAxisName: 
     cInputPositiveKeyName: 
     cInputPositiveDefaultKey: 
@@ -1003,7 +1003,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 0}
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: 
     cInputPositiveKeyName: 
     cInputPositiveDefaultKey: 

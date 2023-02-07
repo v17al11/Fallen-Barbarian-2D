@@ -25,7 +25,7 @@ MonoBehaviour:
   deathSound: {fileID: 8300000, guid: 59d283572ffee7c41b2a31e47c3b32be, type: 3}
   height: 5.5
   age: 27
-  bloodType: O-
+  bloodType: Unknown
   lifePoints: 1000
   maxGaugePoints: 400
   characterPrefabStorage: 1
@@ -125,9 +125,10 @@ MonoBehaviour:
     _serializedValue: 214748368
   animationType: 1
   avatar: {fileID: 9000000, guid: 9d9569a11a06f464bb9a5618bdd51bba, type: 3}
+  useScaleFlip: 0
   applyRootMotion: 0
   animationFlow: 0
-  useAnimationMaps: 1
+  useAnimationMaps: 0
   stanceResourcePath:
   - MoveSets\Mecanim_Bot_Stance_1
   moves: []

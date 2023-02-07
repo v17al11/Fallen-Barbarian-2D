@@ -126,7 +126,7 @@ MonoBehaviour:
     buttonExecution: 05000000
     editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -165,7 +165,7 @@ MonoBehaviour:
       blocking: 0
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 0
+    statesToggle: 1
   moveClassification:
     attackType: 0
     hitType: 0

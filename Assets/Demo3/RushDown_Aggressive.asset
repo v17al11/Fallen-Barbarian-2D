@@ -115,7 +115,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     - enabled: 1
       boolean: 0
       conditions:
@@ -467,7 +467,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 0
+      conditionsToggle: 1
     reactions:
     - reactionType: 10
       moveClassification:
@@ -519,7 +519,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 0
+      conditionsToggle: 1
     - enabled: 1
       boolean: 0
       conditions:
@@ -548,7 +548,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 0
+      conditionsToggle: 1
     reactions:
     - reactionType: 10
       moveClassification:
@@ -810,7 +810,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     reactions:
     - reactionType: 10
       moveClassification:
@@ -862,7 +862,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 0
+      conditionsToggle: 1
     - enabled: 1
       boolean: 0
       conditions:
@@ -891,7 +891,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 0
+      conditionsToggle: 1
     reactions:
     - reactionType: 10
       moveClassification:
@@ -910,9 +910,9 @@ MonoBehaviour:
       buttonPress: 4
       behavior: 0
       desirability: 0
-    debugToggle: 1
-    eventsToggle: 0
-    reactionsToggle: 0
+    debugToggle: 0
+    eventsToggle: 1
+    reactionsToggle: 1
   aiDefinitions:
     damage:
       veryWeak: 0.05

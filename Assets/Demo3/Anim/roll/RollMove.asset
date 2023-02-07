@@ -124,9 +124,9 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 11000000
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 0
+    buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
     _chargeTiming:
@@ -510,7 +510,7 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 36
     bodyPart: 0
     hitBoxDefinitionIndex: 0
     shape: 0
