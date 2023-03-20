@@ -14128,9 +14128,11 @@ MonoBehaviour:
         z:
           _serializedValue: 66688
     clip: {fileID: 7400000, guid: 7edab392fe31fbc4280eca08568e4df5, type: 2}
+    customHitBoxDefinition: {fileID: 0}
     length:
       _serializedValue: 7373027840
     bakeSpeed: 1
+    hitBoxDefinitionType: 0
   animationSpeed: 1
   _animationSpeed:
     _serializedValue: 4294967296
@@ -14149,6 +14151,8 @@ MonoBehaviour:
   invertRotationRight: 0
   autoCorrectRotation: 0
   frameWindowRotation: 0
+  cooldown: 0
+  cooldownFrames: 0
   startDrainingGauge: 0
   inhibitGainWhileDraining: 0
   stopDrainingGauge: 0
@@ -14585,6 +14589,7 @@ MonoBehaviour:
     groundBounceToggle: 0
     hurtBoxes:
     - bodyPart: 15
+      hitBoxDefinitionIndex: 0
       shape: 1
       type: 0
       rect:
@@ -14867,6 +14872,7 @@ MonoBehaviour:
     groundBounceToggle: 0
     hurtBoxes:
     - bodyPart: 8
+      hitBoxDefinitionIndex: 0
       shape: 1
       type: 0
       rect:
@@ -14930,9 +14936,11 @@ MonoBehaviour:
         z:
           _serializedValue: 0
   blockableArea:
+    enabled: 1
     activeFramesBegin: 1
     activeFramesEnds: 15
     bodyPart: 0
+    hitBoxDefinitionIndex: 0
     shape: 0
     rect:
       serializedVersion: 2

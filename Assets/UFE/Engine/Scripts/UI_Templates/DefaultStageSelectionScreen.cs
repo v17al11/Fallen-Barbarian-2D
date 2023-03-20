@@ -116,12 +116,12 @@ public class DefaultStageSelectionScreen : StageSelectionScreen{
 		StageOptions stage = UFE.config.stages[this.stageHoverIndex];
 
 		if (stage != null){
-			if (this.screenshotStage != null){
-				this.screenshotStage.sprite = Sprite.Create(
-					stage.screenshot,
-					new Rect(0f, 0f, stage.screenshot.width, stage.screenshot.height),
-					new Vector2(0.5f * stage.screenshot.width, 0.5f * stage.screenshot.height)
-				);
+			if (this.screenshotStage != null) {
+                this.screenshotStage.sprite = Sprite.Create(
+                    stage.screenshot,
+                    new Rect(0f, 0f, stage.screenshot.width, stage.screenshot.height),
+                    new Vector2(0.5f * stage.screenshot.width, 0.5f * stage.screenshot.height)
+                );
 			}
 
 			if (this.nameStage != null){

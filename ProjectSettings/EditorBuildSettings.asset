@@ -5,10 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/UFE/Demo/Demo.unity
-    guid: a4f99dda2dd9d4442b85a6936f4bb0d9
   - enabled: 1
-    path: Assets/Demo3/DemoTestPokadr.unity
+    path: Assets/Main/Main.unity
     guid: 25cfcb6737f892d4e96848020e136472
+  - enabled: 1
+    path: Assets/Main/GoblinScene.unity
+    guid: 7e6e922fc616cd24989346bb39a4ecd2
   m_configObjects: {}
