@@ -10,31 +10,31 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: BlockLow_move
+  m_Name: Run 1
   m_EditorClassIdentifier: 
   version: 0
   animationClip: {fileID: 0}
   animMap:
     animationMaps: []
-    clip: {fileID: 7400000, guid: 7c097c4337752234caed38f39b8128e4, type: 2}
-    customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
+    clip: {fileID: 7400000, guid: b5402a6b70d460248a64deeb2e582a14, type: 2}
+    customHitBoxDefinition: {fileID: 11400000, guid: d9bc3b72363213a4892d4e2dfc8d7a1b,
       type: 2}
     length:
-      _serializedValue: 2075900928
+      _serializedValue: 1610612736
     bakeSpeed: 0
     hitBoxDefinitionType: 0
   animationSpeed: 1
   _animationSpeed:
-    _serializedValue: 2576980480
+    _serializedValue: 10307921920
   wrapMode: 0
   characterPrefab: {fileID: 6370135527279938734, guid: f3e0394aa77c8294c8bad3dc52b6d8a7,
     type: 3}
-  moveName: block_low
+  moveName: Run Stop
   description: 
   fps: 60
   ignoreGravity: 0
   ignoreFriction: 0
-  cancelMoveWheLanding: 1
+  cancelMoveWheLanding: 0
   forceMirrorLeft: 0
   forceMirrorRight: 0
   invertRotationLeft: 0
@@ -78,18 +78,22 @@ MonoBehaviour:
     _serializedValue: 0
   DCMove: {fileID: 0}
   DCStance: 0
-  disableHeadLook: 0
+  disableHeadLook: 1
   speedKeyFrameToggle: 0
   fixedSpeed: 1
-  animSpeedKeyFrame: []
-  totalFrames: 49
+  animSpeedKeyFrame:
+  - castingFrame: 0
+    speed: 1
+    _speed:
+      _serializedValue: 4294967296
+  totalFrames: 10
   startUpFrames: 0
-  activeFrames: 29
-  recoveryFrames: 0
+  activeFrames: 1
+  recoveryFrames: 4
   applyRootMotion: 0
-  lockXMotion: 1
-  lockYMotion: 1
-  lockZMotion: 1
+  lockXMotion: 0
+  lockYMotion: 0
+  lockZMotion: 0
   forceGrounded: 0
   rootMotionNode: 0
   overrideBlendingIn: 0
@@ -99,7 +103,7 @@ MonoBehaviour:
     _serializedValue: 0
   blendingOut: 0
   _blendingOut:
-    _serializedValue: 0
+    _serializedValue: 257698037760
   chargeMove: 0
   chargeTiming: 0.7
   _chargeTiming:
@@ -115,16 +119,16 @@ MonoBehaviour:
   defaultInputs:
     chargeMove: 0
     _chargeTiming:
-      _serializedValue: 858993472
+      _serializedValue: 3006477056
     allowInputLeniency: 0
     allowNegativeEdge: 0
     forceAxisPrecision: 0
-    leniencyBuffer: 1
-    onReleaseExecution: 0
-    requireButtonPress: 0
-    onPressExecution: 1
-    buttonSequence: 0a000000
-    buttonExecution: 0a000000
+    leniencyBuffer: 8
+    onReleaseExecution: 1
+    requireButtonPress: 1
+    onPressExecution: 0
+    buttonSequence: 
+    buttonExecution: 00000000
     editorToggle: 1
     buttonSequenceToggle: 1
     buttonExecutionToggle: 1
@@ -138,13 +142,14 @@ MonoBehaviour:
     leniencyBuffer: 3
     onReleaseExecution: 0
     requireButtonPress: 1
-    onPressExecution: 0
+    onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
     editorToggle: 0
     buttonSequenceToggle: 0
-    buttonExecutionToggle: 1
-  previousMoves: []
+    buttonExecutionToggle: 0
+  previousMoves:
+  - {fileID: 11400000, guid: 16351c32863c81541afbd78d68048529, type: 2}
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -165,7 +170,7 @@ MonoBehaviour:
       standBy: 1
       blocking: 0
       stunned: 0
-    basicMovesToggle: 0
+    basicMovesToggle: 1
     statesToggle: 1
   moveClassification:
     attackType: 0
@@ -178,55 +183,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 2
-    allowBuffer: 0
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 45
-    activeFramesEnds: 49
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 2
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 20
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 2143a6cbb5611c941b6f26c9d5e8f148, type: 2}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
+  frameLinks: []
   gauges: []
   particleEffects: []
   appliedForces: []
@@ -242,57 +199,57 @@ MonoBehaviour:
   blockableArea:
     enabled: 1
     activeFramesBegin: 0
-    activeFramesEnds: 49
-    bodyPart: 3
+    activeFramesEnds: 1
+    bodyPart: 0
     hitBoxDefinitionIndex: 0
-    shape: 0
+    shape: 1
     rect:
       serializedVersion: 2
       x: 0
-      y: 2
-      width: 2.2
-      height: 3.41
+      y: 0
+      width: 1.9
+      height: 3
     _rect:
       topRight:
         x:
-          _serializedValue: 9448928256
+          _serializedValue: 8160437760
         y:
-          _serializedValue: 8589934592
+          _serializedValue: 0
         z:
           _serializedValue: 0
       topLeft:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 8589934592
+          _serializedValue: 0
         z:
           _serializedValue: 0
       bottomRight:
         x:
-          _serializedValue: 9448928256
+          _serializedValue: 8160437760
         y:
-          _serializedValue: 23235772416
+          _serializedValue: 12884901888
         z:
           _serializedValue: 0
       bottomLeft:
         x:
           _serializedValue: 0
         y:
-          _serializedValue: 23235772416
+          _serializedValue: 12884901888
         z:
           _serializedValue: 0
       x:
         _serializedValue: 0
       y:
-        _serializedValue: 8589934592
+        _serializedValue: 0
       width:
-        _serializedValue: 9448928256
+        _serializedValue: 8160437760
       height:
-        _serializedValue: 14645838848
+        _serializedValue: 12884901888
       xMax:
-        _serializedValue: 9448928256
+        _serializedValue: 8160437760
       yMax:
-        _serializedValue: 23235772416
+        _serializedValue: 12884901888
     followXBounds: 0
     followYBounds: 0
     radius: 0.5
@@ -308,15 +265,15 @@ MonoBehaviour:
         _serializedValue: 0
     position:
       x:
-        _serializedValue: 1675037184
+        _serializedValue: -4724464128
       y:
-        _serializedValue: 3221225472
+        _serializedValue: 3478923520
       z:
         _serializedValue: 0
   invincibleBodyParts: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 1
+    activeFramesEnds: 0
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}

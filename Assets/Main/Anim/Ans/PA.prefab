@@ -990,9 +990,10 @@ GameObject:
   - component: {fileID: 3562588756918274732}
   - component: {fileID: -6533869863686532650}
   - component: {fileID: 6370135527279938733}
+  - component: {fileID: 1350102184451923323}
   m_Layer: 0
   m_Name: PA
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1150,6 +1151,18 @@ MonoBehaviour:
   moveSetScript: {fileID: 0}
   previewAllBoxes: 1
   customHitBoxes: {fileID: 0}
+--- !u!114 &1350102184451923323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6370135527279938734}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fc94fca0752b73489ea55739ad4f96f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8182658850622080451
 GameObject:
   m_ObjectHideFlags: 0

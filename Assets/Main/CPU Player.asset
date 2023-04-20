@@ -24,7 +24,7 @@ MonoBehaviour:
   height: 175
   age: 21
   bloodType: Unknown
-  lifePoints: 100
+  lifePoints: 1000
   maxGaugePoints: 0
   characterPrefabStorage: 0
   characterPrefab: {fileID: 6370135527279938734, guid: d303230c88ee3e6469ca3c9b80b73575,
@@ -462,11 +462,11 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 7400000, guid: 7c097c4337752234caed38f39b8128e4, type: 2}
-          customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
+          clip: {fileID: 7400000, guid: c6b1dc462f5092c4a8ce8bc7f372a081, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 3ae33e4e6f0ff2e478a71c73c16d5704,
             type: 2}
           length:
-            _serializedValue: 4151801856
+            _serializedValue: 5189751808
           bakeSpeed: 0
           hitBoxDefinitionType: 1
         - animationMaps: []
@@ -1477,7 +1477,7 @@ MonoBehaviour:
           customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
             type: 2}
           length:
-            _serializedValue: 4151801856
+            _serializedValue: 2075900928
           bakeSpeed: 0
           hitBoxDefinitionType: 1
         - animationMaps: []
@@ -1688,7 +1688,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 0
+        editorToggle: 1
         soundEffectsToggle: 0
       blockingHighPose:
         clip1: {fileID: 0}
@@ -1925,12 +1925,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 7c097c4337752234caed38f39b8128e4, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 2075900928
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -2373,12 +2374,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 7c097c4337752234caed38f39b8128e4, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 2075900928
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -2438,7 +2440,7 @@ MonoBehaviour:
         animationSpeed: 1
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         autoSpeed: 1
         restingClipInterval: 6
         _restingClipInterval:
@@ -2485,12 +2487,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 7c097c4337752234caed38f39b8128e4, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: 2f6a39914a499ed4f82e27e48976b545,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 2075900928
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -2550,7 +2553,7 @@ MonoBehaviour:
         animationSpeed: 1
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 0
+        wrapMode: 1
         autoSpeed: 1
         restingClipInterval: 6
         _restingClipInterval:
@@ -5745,7 +5748,7 @@ MonoBehaviour:
         soundEffectsToggle: 0
       moveEnabled: 1
       jumpEnabled: 1
-      crouchEnabled: 0
+      crouchEnabled: 1
       blockEnabled: 1
       parryEnabled: 0
     attackMoves:

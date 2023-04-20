@@ -697,7 +697,7 @@ MonoBehaviour:
       range: 0
     shape: 0
     collisionType: 0
-    hitBoxType: 0
+    hitBoxType: 1
   - name: Body
     activeFrames:
     - active: 1
@@ -1377,7 +1377,7 @@ MonoBehaviour:
       range: 0
     shape: 1
     collisionType: 0
-    hitBoxType: 0
+    hitBoxType: 1
   - name: Legs
     activeFrames:
     - active: 1
@@ -2057,4 +2057,4 @@ MonoBehaviour:
       range: 0
     shape: 1
     collisionType: 0
-    hitBoxType: 0
+    hitBoxType: 1

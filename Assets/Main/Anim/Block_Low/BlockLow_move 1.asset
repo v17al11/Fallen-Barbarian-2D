@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 1528491153, guid: 290947d1480294243a72173919bf47d1, type: 3}
-  m_Name: BlockLow_move
+  m_Name: BlockLow_move 1
   m_EditorClassIdentifier: 
   version: 0
   animationClip: {fileID: 0}
@@ -25,7 +25,7 @@ MonoBehaviour:
     hitBoxDefinitionType: 0
   animationSpeed: 1
   _animationSpeed:
-    _serializedValue: 2576980480
+    _serializedValue: 12884901888
   wrapMode: 0
   characterPrefab: {fileID: 6370135527279938734, guid: f3e0394aa77c8294c8bad3dc52b6d8a7,
     type: 3}
@@ -82,7 +82,7 @@ MonoBehaviour:
   speedKeyFrameToggle: 0
   fixedSpeed: 1
   animSpeedKeyFrame: []
-  totalFrames: 49
+  totalFrames: 10
   startUpFrames: 0
   activeFrames: 29
   recoveryFrames: 0
@@ -120,13 +120,13 @@ MonoBehaviour:
     allowNegativeEdge: 0
     forceAxisPrecision: 0
     leniencyBuffer: 1
-    onReleaseExecution: 0
-    requireButtonPress: 0
-    onPressExecution: 1
-    buttonSequence: 0a000000
+    onReleaseExecution: 1
+    requireButtonPress: 1
+    onPressExecution: 0
+    buttonSequence: 
     buttonExecution: 0a000000
     editorToggle: 1
-    buttonSequenceToggle: 1
+    buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   altInputs:
     chargeMove: 0
@@ -144,7 +144,8 @@ MonoBehaviour:
     editorToggle: 0
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
-  previousMoves: []
+  previousMoves:
+  - {fileID: 11400000, guid: 0de7fc41883e1764b9ab692433e58755, type: 2}
   opponentConditions:
     basicMoveLimitation: 
     possibleMoveStates: []
@@ -178,55 +179,7 @@ MonoBehaviour:
     anyAttackType: 1
     anyHitType: 1
     anyHitConfirmType: 1
-  frameLinks:
-  - linkType: 2
-    allowBuffer: 0
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 45
-    activeFramesEnds: 49
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 1
-    ignorePlayerConditions: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
-  - linkType: 2
-    allowBuffer: 1
-    onStrike: 1
-    onBlock: 1
-    onParry: 1
-    activeFramesBegins: 0
-    activeFramesEnds: 20
-    counterMoveType: 0
-    counterMoveFilter: {fileID: 0}
-    disableHitImpact: 1
-    anyHitStrength: 1
-    hitStrength: 0
-    anyStrokeHitBox: 1
-    hitBoxType: 0
-    anyHitType: 1
-    hitType: 0
-    ignoreInputs: 0
-    ignorePlayerConditions: 0
-    nextMoveStartupFrame: 1
-    linkableMoves:
-    - {fileID: 11400000, guid: 2143a6cbb5611c941b6f26c9d5e8f148, type: 2}
-    linkableMovesToggle: 1
-    hitConfirmToggle: 0
-    counterMoveToggle: 0
+  frameLinks: []
   gauges: []
   particleEffects: []
   appliedForces: []
@@ -241,8 +194,8 @@ MonoBehaviour:
   hits: []
   blockableArea:
     enabled: 1
-    activeFramesBegin: 0
-    activeFramesEnds: 49
+    activeFramesBegin: 9
+    activeFramesEnds: 10
     bodyPart: 3
     hitBoxDefinitionIndex: 0
     shape: 0

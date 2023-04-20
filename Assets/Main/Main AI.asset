@@ -25,7 +25,7 @@ MonoBehaviour:
     buttonSequenceInterval: 1
     attackDesirabilityCalculation: 2
     defaultDesirability: 0
-    playRandomMoves: 0
+    playRandomMoves: 1
     reactionParameters:
       attackWhenEnemyIsDown: 0
       attackWhenEnemyIsBlocking: 1
@@ -115,7 +115,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     - enabled: 1
       boolean: 0
       conditions:
@@ -169,7 +169,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     - enabled: 1
       boolean: 0
       conditions:
@@ -625,7 +625,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     - enabled: 1
       boolean: 0
       conditions:
@@ -679,7 +679,7 @@ MonoBehaviour:
           anyHitConfirmType: 1
         moveFrameData: 0
         moveDamage: 0
-      conditionsToggle: 1
+      conditionsToggle: 0
     reactions:
     - reactionType: 5
       moveClassification:
@@ -699,7 +699,7 @@ MonoBehaviour:
       behavior: 0
       desirability: 4
     debugToggle: 0
-    eventsToggle: 0
+    eventsToggle: 1
     reactionsToggle: 0
   - ruleName: Tech Throws
     events:
