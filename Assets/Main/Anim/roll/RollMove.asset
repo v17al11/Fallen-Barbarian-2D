@@ -314,7 +314,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 0
+    hitStrength: 1
     hitStunType: 1
     hitStunOnHit: 0
     _hitStunOnHit:
@@ -432,16 +432,16 @@ MonoBehaviour:
           _serializedValue: 0
     damageOptionsToggle: 1
     hitStunOptionsToggle: 1
-    forceOptionsToggle: 0
-    opponentForceToggle: 0
-    selfForceToggle: 0
-    stageReactionsToggle: 0
+    forceOptionsToggle: 1
+    opponentForceToggle: 1
+    selfForceToggle: 1
+    stageReactionsToggle: 1
     overrideEventsToggle: 1
-    hitConditionsToggle: 0
-    pullInToggle: 0
-    hurtBoxesToggle: 0
+    hitConditionsToggle: 1
+    pullInToggle: 1
+    hurtBoxesToggle: 1
     wallBounceToggle: 0
-    groundBounceToggle: 0
+    groundBounceToggle: 1
     hurtBoxes:
     - bodyPart: 0
       hitBoxDefinitionIndex: 1

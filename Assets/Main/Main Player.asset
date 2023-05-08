@@ -1137,12 +1137,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: e0d858b8ef50a534a9a6efcee48326ee,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -1203,7 +1204,7 @@ MonoBehaviour:
         _animationSpeed:
           _serializedValue: 4294967296
         wrapMode: 8
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -1249,12 +1250,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: e0d858b8ef50a534a9a6efcee48326ee,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -1315,7 +1317,7 @@ MonoBehaviour:
         _animationSpeed:
           _serializedValue: 4294967296
         wrapMode: 8
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -1361,12 +1363,13 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
-          customHitBoxDefinition: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
+          customHitBoxDefinition: {fileID: 11400000, guid: e0d858b8ef50a534a9a6efcee48326ee,
+            type: 2}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -1427,7 +1430,7 @@ MonoBehaviour:
         _animationSpeed:
           _serializedValue: 4294967296
         wrapMode: 1
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -1575,7 +1578,7 @@ MonoBehaviour:
           bodyPart: 0
         reference: 0
         name: 
-        editorToggle: 0
+        editorToggle: 1
         soundEffectsToggle: 0
       blockingCrouchingHit:
         clip1: {fileID: 0}
@@ -3162,12 +3165,12 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -3226,9 +3229,9 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         animationSpeed: 1
         _animationSpeed:
-          _serializedValue: 4294967296
+          _serializedValue: -4294967296
         wrapMode: 8
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -3274,12 +3277,12 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -3338,9 +3341,9 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         animationSpeed: 1
         _animationSpeed:
-          _serializedValue: 4294967296
+          _serializedValue: -4294967296
         wrapMode: 8
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -3499,12 +3502,12 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: 5330b25d506920d43bc31cf506e43edb, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
-            _serializedValue: 0
+            _serializedValue: 3221225472
           bakeSpeed: 0
-          hitBoxDefinitionType: 0
+          hitBoxDefinitionType: 1
         - animationMaps: []
           clip: {fileID: 0}
           customHitBoxDefinition: {fileID: 0}
@@ -3563,9 +3566,9 @@ MonoBehaviour:
           hitBoxDefinitionType: 0
         animationSpeed: 1
         _animationSpeed:
-          _serializedValue: 4294967296
+          _serializedValue: -4294967296
         wrapMode: 8
-        autoSpeed: 1
+        autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
           _serializedValue: 25769803776
@@ -4131,7 +4134,7 @@ MonoBehaviour:
         animationSpeed: 1
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 8
+        wrapMode: 1
         autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:
@@ -4291,7 +4294,7 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: dfd7bba818091004f9e51ca1ab8b37b3, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4356,7 +4359,7 @@ MonoBehaviour:
         animationSpeed: 1
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 8
+        wrapMode: 1
         autoSpeed: 1
         restingClipInterval: 6
         _restingClipInterval:
@@ -4516,7 +4519,7 @@ MonoBehaviour:
         clip6: {fileID: 0}
         animMap:
         - animationMaps: []
-          clip: {fileID: 0}
+          clip: {fileID: 7400000, guid: dfd7bba818091004f9e51ca1ab8b37b3, type: 2}
           customHitBoxDefinition: {fileID: 0}
           length:
             _serializedValue: 0
@@ -4581,7 +4584,7 @@ MonoBehaviour:
         animationSpeed: 1
         _animationSpeed:
           _serializedValue: 4294967296
-        wrapMode: 8
+        wrapMode: 1
         autoSpeed: 0
         restingClipInterval: 6
         _restingClipInterval:

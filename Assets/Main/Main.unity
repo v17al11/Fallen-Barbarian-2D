@@ -4079,4 +4079,5 @@ MonoBehaviour:
   _badEndScene: {fileID: 1612751410}
   _backgroundAnim: {fileID: 1043796400}
   _maxYPos: 2.7
-  _enemy: {fileID: 11400000, guid: a59bea863eae5154b81df4b44e1799fb, type: 2}
+  _moveInfo: {fileID: 11400000, guid: 10f89971393404e439529a4a8ce56e1a, type: 2}
+  _rollMove: {fileID: 11400000, guid: 63bc1ba712a16d540947d8091d559ee4, type: 2}

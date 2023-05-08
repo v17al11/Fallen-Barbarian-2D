@@ -73,7 +73,7 @@ InputManager:
     m_Name: P1Button1Block
     descriptiveName: Light Punch
     descriptiveNegativeName: 
-    negativeButton: 
+    negativeButton: s
     positiveButton: w
     altNegativeButton: 
     altPositiveButton: joystick button 0
