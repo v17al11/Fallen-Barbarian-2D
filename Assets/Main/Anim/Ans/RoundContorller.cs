@@ -19,6 +19,8 @@ public class RoundContorller : MonoBehaviour
     private GameObject _gameUI;
     private bool _roundEnd;
     private bool _roundStart;
+    private ControlsScript _player;
+    private ControlsScript _enemy;
 
     private static bool _secondStart;
 
@@ -49,7 +51,14 @@ public class RoundContorller : MonoBehaviour
             Debug.Log(_rollMove.hits[0].unblockable);
         }
         else
-            _rollMove.hits[0].unblockable = false;
+        {
+            if (_player == null || _enemy == null)
+                return;
+
+            if (_player.currentBasicMove is not (BasicMoveReference.BlockingHighHit or BasicMoveReference.BlockingHighPose) 
+                && _enemy.currentBasicMove is not (BasicMoveReference.BlockingHighHit or BasicMoveReference.BlockingHighPose))
+                _rollMove.hits[0].unblockable = false;
+        }
     }
 
     private void OnBlock(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
@@ -146,6 +155,9 @@ public class RoundContorller : MonoBehaviour
     private void OnRoundBegins(int newInt)
     {
         _roundStart = true;
+
+        _player = UFE.GetControlsScript(1);
+        _enemy = UFE.GetControlsScript(2);
     }
 
     private void OnRoundEnds(ControlsScript winner, ControlsScript loser)
@@ -191,28 +203,26 @@ public class RoundContorller : MonoBehaviour
     {
         if(_roundStart)
         {
-            var player = UFE.GetControlsScript(1);
-            var enemy = UFE.GetControlsScript(2);
-            GameObject playerObj = GameObject.Find("Player1");
-            var playerPhysics = playerObj.GetComponent<PhysicsScript>();
+            //var player = UFE.GetControlsScript(1);
+            //var enemy = UFE.GetControlsScript(2);
 
-            CheckHitInJump(enemy, ref _lastEnemyYPos);
-            CheckHitInJump(player, ref _lastPlayerYPos);
+            CheckHitInJump(_enemy, ref _lastEnemyYPos);
+            CheckHitInJump(_player, ref _lastPlayerYPos);
 
-            player.isAirRecovering = false;
-            enemy.isAirRecovering = false;
+            _player.isAirRecovering = false;
+            _enemy.isAirRecovering = false;
 
-            player.airRecoveryType = AirRecoveryType.AllowMoves;
-            enemy.airRecoveryType = AirRecoveryType.AllowMoves;
+            _player.airRecoveryType = AirRecoveryType.AllowMoves;
+            _enemy.airRecoveryType = AirRecoveryType.AllowMoves;
 
-            if (player.currentLifePoints <= 0 || enemy.currentLifePoints <= 0)
+            if (_player.currentLifePoints <= 0 || _enemy.currentLifePoints <= 0)
             {
                 _gameUI = GameObject.Find("CanvasGroup");
                 
                 _roundEnd = true;
             }
 
-            if(player.currentSubState == SubStates.Stunned)
+            if(_player.currentSubState == SubStates.Stunned)
             {
                 /*player.currentBasicMove = BasicMoveReference.HitStandingMidKnockdown;*/
             }
