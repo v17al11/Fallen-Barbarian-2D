@@ -6,7 +6,7 @@ using UFENetcode;
 using UnityEngine.SceneManagement;
 using System;
 
-public class RoundContorller : MonoBehaviour
+public class RoundContorllerMy : MonoBehaviour
 {
     [SerializeField] private GameObject _badEndScene;
     [SerializeField] private GameObject _backgroundAnim;
@@ -31,13 +31,13 @@ public class RoundContorller : MonoBehaviour
         UFE.OnBlock += OnBlock;
         UFE.OnBasicMove += UFE_OnBasicMove;
 
-        /*_background = GameObject.Find("Background");
-        _background.SetActive(false);*/
+        _background = GameObject.Find("Background");
+        _background.SetActive(false);
 
         if (_secondStart)
         {
             UFE.StartVersusModeAfterBattleScreen();
-            /*_background.SetActive(true);*/
+            _background.SetActive(true);
         }
     }
 
@@ -79,7 +79,7 @@ public class RoundContorller : MonoBehaviour
             enemyControl.currentLifePoints -= 100;
         }
 
-        if (player.name == "Player2" && move.name == "HgAttackMove" && strokeHitBox.type == HitBoxType.low)
+        /*if (player.name == "Player2" && move.name == "HgAttackMove" && strokeHitBox.type == HitBoxType.low)
         {
             enemyControl.currentLifePoints -= 10;
         }
@@ -88,9 +88,9 @@ public class RoundContorller : MonoBehaviour
         {
             Debug.Log("Damage Back");
             playerControl.currentLifePoints -= 10;
-        }
+        }*/
 
-        if (player.name == "Player1" && move.name == "jump_kick_Move" && strokeHitBox.type == HitBoxType.low)
+        /*if (player.name == "Player1" && move.name == "jump_kick_Move" && strokeHitBox.type == HitBoxType.low)
         {
             playerControl.currentLifePoints -= 15;
         }
@@ -104,7 +104,7 @@ public class RoundContorller : MonoBehaviour
         {
             enemyControl.currentLifePoints -= 10;
             
-        }
+        }*/
 
         if (player.name == "Player1" && move.name == "RollMove" && strokeHitBox.type == HitBoxType.high)
         {

@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: CPU Player
   m_EditorClassIdentifier: 
   version: 0
-  profilePictureSmall: {fileID: 2800000, guid: 6a02c91ea60396a4b8801cbce74e1b35, type: 3}
+  profilePictureSmall: {fileID: 2800000, guid: 8713aa93b06530c4983a07976bfca2f2, type: 3}
   profilePictureBig: {fileID: 2800000, guid: 30e63f5864ad6b24797407dfc93d17cf, type: 3}
-  characterName: BarbarianAI
+  characterName: Enemy AI
   gender: 2
   characterDescription: 
   selectionAnimation: {fileID: 0}

@@ -337,7 +337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offect: 85
-  offect3d: {x: 1, y: 1.15}
+  offect3d: {x: 1, y: 0}
 --- !u!212 &573446946
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offect: 99
-  offect3d: {x: 1, y: 0}
+  offect3d: {x: 1, y: 1}
 --- !u!212 &638015484
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1764,8 +1764,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 829672687}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.03302, y: 0.67438865, z: 0.8936273}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.03302, y: 0.6743889, z: 0.89362717}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2969,7 +2969,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offect: 85
-  offect3d: {x: 1, y: 1.15}
+  offect3d: {x: 1, y: 0}
 --- !u!212 &1522726464
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3893,7 +3893,7 @@ GameObject:
   - component: {fileID: 2072733964}
   - component: {fileID: 2072733963}
   - component: {fileID: 2072733966}
-  - component: {fileID: 2072733969}
+  - component: {fileID: 2072733970}
   m_Layer: 0
   m_Name: Camera
   m_TagString: MainCamera
@@ -4064,7 +4064,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
---- !u!114 &2072733969
+--- !u!114 &2072733970
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4073,11 +4073,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 2072733962}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2fff85afd9474e14585eccc68b6aaa13, type: 3}
+  m_Script: {fileID: 11500000, guid: 9d82eba15aa2bb2479804ff0eaf76080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _badEndScene: {fileID: 1612751410}
-  _backgroundAnim: {fileID: 1043796400}
   _maxYPos: 2.7
-  _moveInfo: {fileID: 11400000, guid: 10f89971393404e439529a4a8ce56e1a, type: 2}
   _rollMove: {fileID: 11400000, guid: 63bc1ba712a16d540947d8091d559ee4, type: 2}

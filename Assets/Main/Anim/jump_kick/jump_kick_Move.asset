@@ -140,7 +140,7 @@ MonoBehaviour:
     onPressExecution: 1
     buttonSequence: 
     buttonExecution: 
-    editorToggle: 0
+    editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
   previousMoves: []
@@ -153,6 +153,30 @@ MonoBehaviour:
     basicMoveLimitation: 
     possibleMoveStates:
     - possibleState: 2
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
+    - possibleState: 3
+      jumpArc: 0
+      jumpArcBegins: 0
+      jumpArcEnds: 100
+      opponentDistance: 0
+      proximityRangeBegins: 0
+      proximityRangeEnds: 100
+      movingForward: 1
+      movingBack: 1
+      standBy: 1
+      blocking: 0
+      stunned: 0
+    - possibleState: 4
       jumpArc: 0
       jumpArcBegins: 0
       jumpArcEnds: 100
@@ -411,10 +435,10 @@ MonoBehaviour:
     hitStunOptionsToggle: 0
     forceOptionsToggle: 1
     opponentForceToggle: 0
-    selfForceToggle: 0
-    stageReactionsToggle: 0
+    selfForceToggle: 1
+    stageReactionsToggle: 1
     overrideEventsToggle: 0
-    hitConditionsToggle: 0
+    hitConditionsToggle: 1
     pullInToggle: 0
     hurtBoxesToggle: 0
     wallBounceToggle: 0

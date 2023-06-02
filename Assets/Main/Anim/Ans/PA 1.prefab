@@ -1046,6 +1046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hairSpriteRenderer: {fileID: 1636376293344226201}
+  HairColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &6370135527279938733
 MonoBehaviour:
   m_ObjectHideFlags: 0

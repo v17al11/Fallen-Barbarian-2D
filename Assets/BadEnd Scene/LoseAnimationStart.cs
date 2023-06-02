@@ -8,6 +8,8 @@ public class LoseAnimationStart : MonoBehaviour
 
     private Animator _animator;
 
+    public SpriteRenderer _loseHair;
+
     private void Start()
     {
         _animator = GetComponent<Animator>();

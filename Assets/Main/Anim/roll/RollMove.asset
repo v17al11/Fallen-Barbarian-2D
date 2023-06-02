@@ -314,7 +314,7 @@ MonoBehaviour:
     instantAirRecovery: 0
     overrideHitAnimation: 0
     newHitAnimation: 27
-    hitStrength: 1
+    hitStrength: 2
     hitStunType: 1
     hitStunOnHit: 0
     _hitStunOnHit:

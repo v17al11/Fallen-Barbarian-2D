@@ -11,9 +11,11 @@ public class GoblinScene : MonoBehaviour
     [SerializeField] private float _sceneDeley;
     [SerializeField] private GameObject _badEndScene;
     [SerializeField] private float _badEndSceneDeley;
+    [SerializeField] private GameObject _hair;
 
     private void Start()
     {
+        Invoke("EnableHair", 2.1f);
         /*Invoke("LoadBattleScene", _sceneDeley);*/
         Invoke("StartBadEndAnimation", _badEndSceneDeley);
     }
@@ -26,6 +28,11 @@ public class GoblinScene : MonoBehaviour
         {
             LoadBattleScene();
         }
+    }
+
+    private void EnableHair()
+    {
+        _hair.SetActive(true);
     }
 
     private void LoadBattleScene()
