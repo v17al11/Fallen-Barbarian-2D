@@ -7,7 +7,7 @@ AnimationClip:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: High_attack
-  serializedVersion: 6
+  serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
@@ -536,6 +536,7 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2550528423
       attribute: 2086281974
@@ -543,6 +544,7 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 3818836072
       attribute: 2086281974
@@ -550,6 +552,7 @@ AnimationClip:
       typeID: 1
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 3400953058
       attribute: 0
@@ -557,6 +560,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2844615782
       attribute: 0
@@ -564,6 +568,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2702589186
       attribute: 0
@@ -571,6 +576,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2312391250
       attribute: 0
@@ -578,6 +584,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2550528423
       attribute: 0
@@ -585,6 +592,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 778364981
       attribute: 0
@@ -592,6 +600,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 3082321554
       attribute: 0
@@ -599,6 +608,7 @@ AnimationClip:
       typeID: 212
       customType: 23
       isPPtrCurve: 1
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2934595977
       attribute: 1
@@ -606,6 +616,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2550528423
       attribute: 1
@@ -613,6 +624,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 179295852
       attribute: 1
@@ -620,6 +632,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 778364981
       attribute: 1
@@ -627,6 +640,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2476570457
       attribute: 1
@@ -634,6 +648,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 4052881290
       attribute: 1
@@ -641,6 +656,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 4181850287
       attribute: 1
@@ -648,6 +664,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 315617798
       attribute: 1
@@ -655,6 +672,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     - serializedVersion: 2
       path: 2934595977
       attribute: 3
@@ -662,6 +680,7 @@ AnimationClip:
       typeID: 4
       customType: 0
       isPPtrCurve: 0
+      isIntCurve: 0
     pptrCurveMapping:
     - {fileID: 21300000, guid: 7652359c9f2146c4facac045650f167d, type: 3}
     - {fileID: 21300000, guid: f53ef053ab8e16144970ce9a94d4e02c, type: 3}

@@ -82,8 +82,8 @@ MonoBehaviour:
   fixedSpeed: 1
   animSpeedKeyFrame: []
   totalFrames: 15
-  startUpFrames: 14
-  activeFrames: 1
+  startUpFrames: 12
+  activeFrames: 3
   recoveryFrames: 0
   applyRootMotion: 0
   lockXMotion: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
   stanceChanges: []
   cameraMovements: []
   hits:
-  - activeFramesBegin: 14
+  - activeFramesBegin: 12
     activeFramesEnds: 15
     hitConfirmType: 0
     throwMove: {fileID: 0}
