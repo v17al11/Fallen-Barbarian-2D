@@ -310,7 +310,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 4
+    hitType: 5
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 0
     applyDifferentAirForce: 0

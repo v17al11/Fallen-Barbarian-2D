@@ -9,7 +9,8 @@ using System;
 public class RoundContorller : MonoBehaviour
 {
     [SerializeField] private float _maxYPos;
-    [SerializeField] private MoveInfo _rollMove;
+    [SerializeField] private MoveInfo _rollMove, _moveKick;
+    [SerializeField] private RoundContorller _roundContorller;
 
     private GameObject _background;
     private GameObject _gameUI;
@@ -29,7 +30,6 @@ public class RoundContorller : MonoBehaviour
         UFE.OnRoundEnds += OnRoundEnds;
         UFE.OnBlock += OnBlock;
         UFE.OnBasicMove += UFE_OnBasicMove;
-        UFE.OnHit += OnHit;
 
         /*_background = GameObject.Find("Background");
         _background.SetActive(false);*/
@@ -39,11 +39,6 @@ public class RoundContorller : MonoBehaviour
             UFE.StartVersusModeAfterBattleScreen();
             /*_background.SetActive(true);*/
         }
-    }
-
-    private void OnHit(HitBox strokeHitBox, MoveInfo move, ControlsScript player)
-    {
-        
     }
 
     private void UFE_OnBasicMove(BasicMoveReference basicMove, ControlsScript player)
@@ -61,6 +56,17 @@ public class RoundContorller : MonoBehaviour
             if (_player.currentBasicMove is not (BasicMoveReference.BlockingHighHit or BasicMoveReference.BlockingHighPose) 
                 && _enemy.currentBasicMove is not (BasicMoveReference.BlockingHighHit or BasicMoveReference.BlockingHighPose))
                 _rollMove.hits[0].unblockable = false;
+
+            if (basicMove == BasicMoveReference.HitStandingMidKnockdown)
+            {
+                var otherPlayer = _enemy == player ? _player : _enemy;
+
+                if (otherPlayer.currentMove.name == _moveKick.name)
+                {
+                    player.Physics.ResetForces(true, false);
+                    player.Physics.AddForce(new FPLibrary.FPVector(-20, 0, 0), otherPlayer.transform.position.x > player.transform.position.x ? 1 : -1);
+                }
+            }
         }
     }
 
@@ -185,9 +191,11 @@ public class RoundContorller : MonoBehaviour
 
             if (_player.currentLifePoints <= 0 || _enemy.currentLifePoints <= 0)
             {
-                _gameUI = GameObject.Find("CanvasGroup");
-                
-                _roundEnd = true;
+                _enemy.isDead = true;
+                /*_roundContorller.OnRoundEnds(_player, _enemy);*/
+                /*_gameUI = GameObject.Find("CanvasGroup");
+
+                _roundEnd = true;*/
             }
 
         }

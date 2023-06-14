@@ -814,7 +814,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 0}
   - inputType: 1
     inputButtonName: P1KeyboardVertical
-    engineRelatedButton: 2
+    engineRelatedButton: 3
     joystickAxisName: 
     cInputPositiveKeyName: 
     cInputPositiveDefaultKey: 
@@ -1007,7 +1007,7 @@ MonoBehaviour:
     inputViewerIcon6: {fileID: 0}
   - inputType: 0
     inputButtonName: P2KeyboardHorizontal
-    engineRelatedButton: 1
+    engineRelatedButton: 0
     joystickAxisName: 
     cInputPositiveKeyName: 
     cInputPositiveDefaultKey: 

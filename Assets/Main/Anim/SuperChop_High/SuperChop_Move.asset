@@ -123,7 +123,7 @@ MonoBehaviour:
     requireButtonPress: 1
     onPressExecution: 1
     buttonSequence: 
-    buttonExecution: 0100000005000000
+    buttonExecution: 0000000005000000
     editorToggle: 1
     buttonSequenceToggle: 0
     buttonExecutionToggle: 1
@@ -165,7 +165,7 @@ MonoBehaviour:
       blocking: 1
       stunned: 0
     basicMovesToggle: 0
-    statesToggle: 1
+    statesToggle: 0
   moveClassification:
     attackType: 0
     hitType: 0
@@ -255,7 +255,7 @@ MonoBehaviour:
     forceStand: 0
     armorBreaker: 0
     continuousHit: 1
-    unblockable: 0
+    unblockable: 1
     spaceBetweenHits: 2
     groundHit: 1
     crouchingHit: 1
@@ -452,12 +452,12 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
-    stageReactionsToggle: 0
-    overrideEventsToggle: 0
+    stageReactionsToggle: 1
+    overrideEventsToggle: 1
     hitConditionsToggle: 1
     pullInToggle: 1
     hurtBoxesToggle: 1
@@ -605,7 +605,7 @@ MonoBehaviour:
   invincibleBodyParts: []
   armorOptions:
     activeFramesBegin: 0
-    activeFramesEnds: 0
+    activeFramesEnds: 1
     overrideHitEffects: 0
     hitEffects:
       hitParticle: {fileID: 0}
