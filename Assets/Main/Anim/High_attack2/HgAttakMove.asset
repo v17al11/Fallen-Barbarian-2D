@@ -286,9 +286,9 @@ MonoBehaviour:
       _serializedValue: 107374182400
     damageOnBlock: 0
     _damageOnBlock:
-      _serializedValue: 429496736
+      _serializedValue: 0
     doesntKill: 0
-    hitType: 0
+    hitType: 2
     resetPreviousHorizontalPush: 0
     resetPreviousVerticalPush: 0
     applyDifferentAirForce: 0
@@ -386,8 +386,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 1
     stageReactionsToggle: 0

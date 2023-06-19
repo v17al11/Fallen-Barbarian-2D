@@ -389,15 +389,18 @@ public class DefaultBattleGUI : BattleGUI{
 				this.player1GUI.wonRoundsImages != null && 
 				this.player1GUI.wonRoundsImages.Length >= targetNumberOfImages
 			){
-				for (int i = 0; i < targetNumberOfImages; ++i){
+				for (int i = 0; i < targetNumberOfImages; ++i)
+				{
 					this.player1GUI.wonRoundsImages[i].enabled = true;
 					this.player1GUI.wonRoundsImages[i].sprite = this.wonRounds.NotFinishedRounds;
 				}
-					
-				for (int i = targetNumberOfImages; i < this.player1GUI.wonRoundsImages.Length; ++i){
+
+				for (int i = targetNumberOfImages; i < this.player1GUI.wonRoundsImages.Length; ++i)
+				{
 					this.player1GUI.wonRoundsImages[i].enabled = false;
 				}
-			}else{
+			}
+			else{
 				Debug.LogError(
 					"Player 1: not enough \"Won Rounds\" Images not found! " +
 					"Expected:" + targetNumberOfImages + " / Found: " + this.player1GUI.wonRoundsImages.Length +
@@ -410,15 +413,18 @@ public class DefaultBattleGUI : BattleGUI{
 				this.player2GUI.wonRoundsImages != null && 
 				this.player2GUI.wonRoundsImages.Length >= targetNumberOfImages
 			){
-				for (int i = 0; i < targetNumberOfImages; ++i){
+				for (int i = 0; i < targetNumberOfImages; ++i)
+				{
 					this.player2GUI.wonRoundsImages[i].enabled = true;
 					this.player2GUI.wonRoundsImages[i].sprite = this.wonRounds.NotFinishedRounds;
 				}
-					
-				for (int i = targetNumberOfImages; i < this.player2GUI.wonRoundsImages.Length; ++i){
+
+				for (int i = targetNumberOfImages; i < this.player2GUI.wonRoundsImages.Length; ++i)
+				{
 					this.player2GUI.wonRoundsImages[i].enabled = false;
 				}
-			}else{
+			}
+			else{
 				Debug.LogError(
 					"Player 2: not enough \"Won Rounds\" Images not found! " +
 					"Expected:" + targetNumberOfImages + " / Found: " + this.player2GUI.wonRoundsImages.Length +

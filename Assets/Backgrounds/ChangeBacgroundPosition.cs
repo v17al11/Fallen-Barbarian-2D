@@ -6,7 +6,7 @@ using System;
 
 public class ChangeBacgroundPosition : MonoBehaviour
 {
-    private Vector3 _positionToChange;
+    /*private Vector3 _positionToChange;
     private Vector3 _currentPosition;
 
     private void Start()
@@ -21,5 +21,5 @@ public class ChangeBacgroundPosition : MonoBehaviour
     private void OnRoundBegins(int newInt)
     {
         transform.position = _positionToChange;
-    }
+    }*/
 }

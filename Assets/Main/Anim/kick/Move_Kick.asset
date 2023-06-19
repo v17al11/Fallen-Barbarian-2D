@@ -186,15 +186,15 @@ MonoBehaviour:
     stun: 0
     stunTime: 0
     _stunTime:
-      _serializedValue: 0
+      _serializedValue: 515396075520
     overrideHitAnimations: 0
     resetAppliedForces: 0
-    standUpOptions: 0
+    standUpOptions: 2
     characterSpecific: 0
     move: {fileID: 0}
     characterSpecificMoves: []
     animationPreview: 0
-    movesToggle: 0
+    movesToggle: 1
   characterAssist: []
   soundEffects: []
   inGameAlert: []
@@ -211,7 +211,7 @@ MonoBehaviour:
     forceStand: 0
     armorBreaker: 0
     continuousHit: 1
-    unblockable: 0
+    unblockable: 1
     spaceBetweenHits: 1
     groundHit: 1
     crouchingHit: 1
@@ -310,7 +310,7 @@ MonoBehaviour:
     _damageOnBlock:
       _serializedValue: 0
     doesntKill: 0
-    hitType: 1
+    hitType: 5
     resetPreviousHorizontalPush: 1
     resetPreviousVerticalPush: 0
     applyDifferentAirForce: 0
@@ -318,7 +318,7 @@ MonoBehaviour:
     pushForce: {x: 0, y: 0}
     _pushForce:
       x:
-        _serializedValue: 15032385536
+        _serializedValue: 85899345920
       y:
         _serializedValue: 0
       z:
@@ -356,7 +356,7 @@ MonoBehaviour:
     groundBouncePushForce: {x: 0, y: 0}
     _groundBouncePushForce:
       x:
-        _serializedValue: 0
+        _serializedValue: 429496729600
       y:
         _serializedValue: 0
       z:
@@ -408,8 +408,8 @@ MonoBehaviour:
         z:
           _serializedValue: 0
     damageOptionsToggle: 1
-    hitStunOptionsToggle: 0
-    forceOptionsToggle: 0
+    hitStunOptionsToggle: 1
+    forceOptionsToggle: 1
     opponentForceToggle: 1
     selfForceToggle: 0
     stageReactionsToggle: 1
@@ -418,7 +418,7 @@ MonoBehaviour:
     pullInToggle: 1
     hurtBoxesToggle: 0
     wallBounceToggle: 0
-    groundBounceToggle: 0
+    groundBounceToggle: 1
     hurtBoxes:
     - bodyPart: 0
       hitBoxDefinitionIndex: 3
